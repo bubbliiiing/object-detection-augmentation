@@ -1,0 +1,32 @@
+<annotation>
+    <folder>VOC</folder>
+    <filename>VOCdevkit\VOC2007/JPEGImages\0.jpg</filename>
+    <source>
+        <database>My Database</database>
+        <annotation>COCO</annotation>
+        <image>flickr</image>
+        <flickrid>NULL</flickrid>
+    </source>
+    <owner>
+        <flickrid>NULL</flickrid>
+        <name>company</name>
+    </owner>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>train</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>233</xmin>
+            <ymin>194</ymin>
+            <xmax>334</xmax>
+            <ymax>372</ymax>
+        </bndbox>
+    </object>
+</annotation>
