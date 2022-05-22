@@ -14,7 +14,7 @@
 
 ## 标签处理
 以generate开头的几个py文件用于生成并保存数据增强后的标签与图片。
-### 修改步骤
+### 生成步骤
 1、Origin_VOCdevkit_path用于指定需要增强的数据集路径；     
 2、Out_VOCdevkit_path用于指定输出的数据集路径；     
 3、Out_Num用于增强生成多少张图片；    
