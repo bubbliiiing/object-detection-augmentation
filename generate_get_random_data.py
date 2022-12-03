@@ -8,14 +8,13 @@ from utils.random_data import get_random_data, get_random_data_with_MixUp
 from utils.utils import convert_annotation, get_classes
 
 #-----------------------------------------------------------------------------------#
-#   Origin_VOCdevkit_path   原始标签所在的路径
-#   Out_VOCdevkit_path      输出标签所在的路径
-#                                   处理后的标签为灰度图，如果设置的值太小会看不见具体情况。
+#   Origin_VOCdevkit_path   原始数据集所在的路径
+#   Out_VOCdevkit_path      输出数据集所在的路径
 #-----------------------------------------------------------------------------------#
 Origin_VOCdevkit_path   = "VOCdevkit_Origin"
 Out_VOCdevkit_path      = "VOCdevkit"
 #-----------------------------------------------------------------------------------#
-#   Out_Num                 利用mixup生成多少组图片
+#   Out_Num                 生成多少组图片
 #   input_shape             生成的图片大小
 #-----------------------------------------------------------------------------------#
 Out_Num                 = 5
